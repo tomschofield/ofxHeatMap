@@ -1,0 +1,29 @@
+<install>
+    <name>ofxHeatMap</name>
+	<version>0.01</version>
+	<author>Tom Schofield</author>
+	<url></url>
+	
+    <add>	
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+	
+	    <src>
+		
+		    <folder name="addons/ofxHeatMap/src">	
+			    <file>../../../addons/ofxXmlSettings/src/ofxXmlSettings.h</file>
+			    <file>../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp</file>
+		    </folder>
+		
+		    <folder name="addons/ofxHeatMap/libs">
+		    </folder>
+		
+	    </src>
+	
+	    <include>
+		    <path>../../../addons/ofxXmlSettings/src</path>
+	    </include>
+    </add>
+    
+</install>
